@@ -27,3 +27,12 @@ const gridBlock = document.querySelectorAll(".gridBlock");
 gridBlock.forEach(div => {
     div.addEventListener('mouseover', colorChange);
 });
+
+function clearGrid() {
+    gridBlock.forEach(div => {
+        div.style.backgroundColor = '#FFFFFF';
+    });
+};
+
+const clear = document.querySelector("#clear");
+clear.addEventListener("click", clearGrid);
