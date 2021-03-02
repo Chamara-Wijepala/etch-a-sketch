@@ -35,8 +35,8 @@ h1 {
     grid-template-columns: var(--grid-size);
     border: 75px solid #ed3b3b;
     border-radius: 25px;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     position: absolute;
     left: 50%;
     top: 50%;
